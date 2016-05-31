@@ -6,6 +6,7 @@ public class nullPointer_exception {
 	{
 		try{
 			String str=null;
+			System.out.println(str.length());
 		}
 		catch(NullPointerException e){
 			System.out.println("NullPointer Exception has occurred "+e);
